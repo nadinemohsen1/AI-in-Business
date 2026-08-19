@@ -1,10 +1,4 @@
 # Diabetes Risk Prediction
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-green)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
 A machine learning system that predicts a patient's likelihood of having diabetes using demographic, behavioral, and clinical data. This project demonstrates a complete, production-style ML workflow — from raw data to a tuned, evaluated classification model — with business-oriented interpretation of results.
 
 ## Table of Contents
