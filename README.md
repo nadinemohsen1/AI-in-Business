@@ -1,5 +1,8 @@
 # Diabetes Risk Prediction
-A machine learning system that predicts a patient's likelihood of having diabetes using demographic, behavioral, and clinical data. This project demonstrates a complete, production-style ML workflow — from raw data to a tuned, evaluated classification model — with business-oriented interpretation of results.
+A machine learning system that predicts a patient's diabetes risk using demographic, behavioral, and clinical data.
+
+## Business Impact
+This project demonstrates how machine learning can support data-driven healthcare decisions by identifying high-risk individuals, improving screening efficiency, and enabling earlier intervention through predictive analytics.
 
 ## Table of Contents
 - [Overview](#overview)
