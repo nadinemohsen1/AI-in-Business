@@ -52,7 +52,7 @@ The dataset is **imbalanced**: approximately 91,500 non-diabetic cases vs. 8,500
 - Built a correlation heatmap to identify the strongest predictors of diabetes
 
 <p align="center">
-  <img src="images/correlation_heatmap.png" alt="Correlation heatmap of numeric features" width="600">
+  <img src="correlation_heatmap.png" width="600">
 </p>
 
 Blood glucose level, HbA1c level, BMI, hypertension, and heart disease showed the strongest positive correlations with diabetes status.
@@ -120,12 +120,15 @@ Hyperparameter tuning improved the Decision Tree's accuracy, precision, and F1-s
 - Class imbalance (~8.5% positive cases) required SMOTE resampling during training so the models could learn meaningful patterns for the minority class.
 - XGBoost's high precision (0.92) combined with solid recall (0.73) makes it the most operationally practical model — it limits false negatives without generating excessive false positives.
 
-## Limitations & Future Improvements
-- The dataset's exact source/provenance is not documented within the notebook; results should be validated against real-world clinical data before any operational use.
-- Evaluation relies on a single train/test split rather than cross-validated performance across multiple splits.
-- The default 0.5 classification threshold was used; adjusting the decision threshold could further improve recall for the diabetic class if minimizing missed diagnoses is the priority.
-- A feature importance analysis (e.g., from the trained XGBoost model) would add further interpretability and is a natural next step.
-- A complementary BI dashboard (e.g., Power BI/Tableau) summarizing risk segments and model outputs would make these findings more accessible to non-technical stakeholders.
+## Future Improvements
+
+Potential enhancements for future iterations include:
+
+- Evaluate model performance using cross-validation to further assess generalization.
+- Optimize the classification threshold based on business objectives, such as prioritizing recall or precision.
+- Incorporate model explainability techniques (e.g., feature importance or SHAP values) to improve interpretability.
+- Deploy the trained model as a simple web application or REST API for interactive predictions.
+- Build an interactive Power BI or Tableau dashboard to visualize prediction results and business insights.
 
 ## Technologies Used
 - **Language:** Python
