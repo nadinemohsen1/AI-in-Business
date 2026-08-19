@@ -67,12 +67,12 @@ Blood glucose level, HbA1c level, BMI, hypertension, and heart disease showed th
 - Standardized numerical features (age, BMI, HbA1c, blood glucose) using `StandardScaler`
 
 <p align="center">
-  <img src="images/outlier_boxplots.png" alt="Boxplots of numerical features for outlier detection" width="700">
+  <img src="outlier_boxplots.png" alt="Boxplots of numerical features for outlier detection" width="700">
 </p>
 
 <p align="center">
-  <img src="images/age_by_diabetes_boxplot.png" alt="Age distribution by diabetes status" width="400">
-  <img src="images/age_distribution.png" alt="Age distribution across patients" width="400">
+  <img src="age_by_diabetes_boxplot.png" alt="Age distribution by diabetes status" width="400">
+  <img src="age_distribution.png" alt="Age distribution across patients" width="400">
 </p>
 
 ### 3. Feature Engineering & Selection
@@ -146,13 +146,6 @@ Potential enhancements for future iterations include:
    ```
 3. Ensure the dataset file (`diabetes_dataset.csv`) is in the same directory as the notebook.
 4. Run all cells sequentially to reproduce the data preparation, model training, and evaluation steps.
-
-## Project Files
-```
-├── Final_ML.ipynb     # Full notebook: EDA, preprocessing, feature engineering,
-│                       # model training, tuning, and evaluation
-└── images/             # Exported charts referenced in this README
-```
 
 ## Skills Demonstrated
 - End-to-end machine learning workflow design and execution
